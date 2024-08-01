@@ -1,2 +1,68 @@
-# mi-web
-es mi pagina de prueba estoy en primer ciclo de la universidad
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHGNT - Curso de Ciberseguridad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi Página Personal</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Sobre mí</h2>
+            <p>Hola, mi nombre es TECHGNT. Actualmente estoy tomando un curso de ciberseguridad.</p>
+        </div>
+        <div class="content">
+            <h2>Proyectos</h2>
+            <p>Aquí compartiré mis proyectos relacionados con la ciberseguridad.</p>
+        </div>
+        <div class="content">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de mi correo electrónico: <a href="mailto:techgnt@example.com">techgnt@example.com</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 TECHGNT. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
